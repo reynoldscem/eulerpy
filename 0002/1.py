@@ -1,6 +1,6 @@
 from functools import reduce
+from itertools import count
 from functools import lru_cache
-
 
 @lru_cache(maxsize=None)
 def fib(n):
